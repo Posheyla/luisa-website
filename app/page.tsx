@@ -134,13 +134,13 @@ export default function Home() {
         }}
       >
         {/* OVERLAY */}
-        <div className="absolute inset-0 bg-[#eef4fb]/60"></div>
+        <div className="absolute inset-0 bg-[#eef4fb]/55"></div>
 
         {/* CONTENT */}
         <div className="max-w-5xl text-center relative z-10 pt-20">
 
           {/* TOP TEXT */}
-          <p className="text-[0.82rem] font-medium uppercase tracking-[0.45em] text-[#5f7396] mb-6">
+          <p className="text-[0.82rem] font-semibold uppercase tracking-[0.45em] text-[#445d8d] mb-6">
             Electrical Engineering · Robotics · Control
           </p>
 
@@ -153,14 +153,14 @@ export default function Home() {
               font-[family-name:var(--font-playfair)]
               font-medium
               mb-8
-              text-[#233b6e]
+              text-[#162554]
             "
           >
             Luisa Chavez Vasquez
           </h1>
 
           {/* DESCRIPTION */}
-          <p className="text-xl md:text-2xl text-[#355070] mb-10 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-[#243b63] mb-10 leading-relaxed max-w-3xl mx-auto font-medium">
             M.S. Electrical Engineering student at North Carolina State University
             interested in robotics, nonlinear control, safety-critical autonomy,
             and quantum approaches for dynamical systems.
@@ -168,7 +168,6 @@ export default function Home() {
 
           {/* BUTTONS */}
           <div className="flex justify-center gap-4 flex-wrap mb-10">
-
             <a
               href="#projects"
               className="
@@ -192,7 +191,7 @@ export default function Home() {
               className="
                 border
                 border-[#7d9cc3]
-                text-[#355070]
+                text-[#243b63]
                 px-8
                 py-4
                 rounded-full
@@ -204,17 +203,16 @@ export default function Home() {
             >
               Download CV
             </a>
-
           </div>
 
           {/* SOCIALS */}
-          <div className="flex justify-center items-center gap-6 text-[#355070] mt-2">
+          <div className="flex justify-center items-center gap-6 text-[#243b63] mt-2">
 
             {/* GITHUB */}
             <a
               href="https://github.com/Posheyla"
               target="_blank"
-              className="flex items-center gap-2 hover:text-[#183b6b] transition"
+              className="flex items-center gap-2 hover:text-[#162554] transition"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +221,7 @@ export default function Home() {
                 viewBox="0 0 24 24"
                 fill="currentColor"
               >
-                <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.95c.58.1.79-.25.79-.56v-2.17c-3.2.7-3.87-1.37-3.87-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.2-3.08-.12-.29-.52-1.46.11-3.04 0 0 .98-.31 3.2 1.18A11.2 11.2 0 0 1 12 6.8c1 0 2 .13 2.93.39 2.22-1.49 3.2-1.18 3.2-1.18.63 1.58.23 2.75.11 3.04.75.8 1.2 1.83 1.2 3.08 0 4.41-2.69 5.39-5.25 5.67.42.36.79 1.08.79 2.18v3.24c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+                <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.95c.58.1.79-.25.79-.56v-2.17c-3.2.7-3.87-1.37-3.87-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.2-3.08-.12-.29-.52-1.46.11-3.04 0 0 .98-.31 3.2 1.18A11.2 11.2 0 0 1 12 6.8c1 0 2 .13 2.93.39 2.22-1.49 3.2-1.18 3.2-1.18.63 1.58.23 2.75.11 3.04.75.8 1.2 1.83 1.2 3.08 0 4.41-2.69 5.39-5.25 5.67.42.36.79 1.08.79 2.18v3.24c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
               </svg>
 
               <span className="text-sm font-medium">
@@ -238,7 +236,7 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/luisa-ch%C3%A1vez-v%C3%A1squez/"
               target="_blank"
-              className="flex items-center gap-2 hover:text-[#183b6b] transition"
+              className="flex items-center gap-2 hover:text-[#162554] transition"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -251,16 +249,15 @@ export default function Home() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-                <rect width="4" height="12" x="2" y="9"/>
-                <circle cx="4" cy="4" r="2"/>
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
               </svg>
 
               <span className="text-sm font-medium">
                 LinkedIn
               </span>
             </a>
-
           </div>
         </div>
       </section>
@@ -591,6 +588,16 @@ export default function Home() {
               <span>Morrisville, North Carolina</span>
             </div>
 
+            <p className="text-sm text-[#7d93b2] mt-4 italic">
+              Photography by{" "}
+              <a
+                href="https://www.instagram.com/jaychaisuksiri/"
+                target="_blank"
+                className="hover:text-[#355070] transition"
+              >
+                @jaychaisuksiri
+              </a>
+            </p>
           </div>
         </div>
       </footer>
